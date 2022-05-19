@@ -1,5 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 .aside {
     background-color: blueviolet;
-    width: 100px;
-    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    float: left;
 }
