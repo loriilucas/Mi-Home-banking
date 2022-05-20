@@ -12,3 +12,8 @@
     flex-direction: column;
     float: left;
 }
+
+#image{
+    background-color: black;
+    height: 5em;
+}
