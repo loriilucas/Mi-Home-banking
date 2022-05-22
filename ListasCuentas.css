@@ -4,7 +4,6 @@
     grid-template-rows:1cm  1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm;
 }
 .cuentas div{
-    background-color:#BEE4A3;
     display:flex;
     align-items: center;
     font-family:sans-serif;
@@ -18,12 +17,14 @@
 
 /* Cuenta de Ahorros*/
 .box1{
+    background-color:#EBCADC;
     grid-column-start: 6; 
     grid-column-end: 13; 
     grid-row-start: 3; 
     grid-row-end: 4;   
 }
 .box2{
+    background-color:#EBCADC;
     grid-column-start: 13; 
     grid-column-end: 16; 
     grid-row-start: 3; 
@@ -31,12 +32,14 @@
 
 }
 .box3{
+    background-color:#F1D9E6;
     grid-column-start: 6; 
     grid-column-end: 11; 
     grid-row-start: 4; 
     grid-row-end: 5; 
 }
 .box4{
+    background-color:#F1D9E6;
     grid-column-start: 11; 
     grid-column-end: 16; 
     grid-row-start: 4; 
@@ -44,24 +47,28 @@
 }
 /* Cuenta en dolares   */
 .box5{
+    background-color:#EBCADC;
     grid-column-start: 6; 
     grid-column-end: 13; 
     grid-row-start: 6; 
     grid-row-end: 7;   
 }
 .box6{
+    background-color:#EBCADC;
     grid-column-start: 13; 
     grid-column-end: 16; 
     grid-row-start: 6; 
     grid-row-end: 7;
 }
 .box7{
+    background-color:#F1D9E6;
     grid-column-start: 6; 
     grid-column-end: 11; 
     grid-row-start: 7; 
     grid-row-end: 8; 
 }
 .box8{
+    background-color:#F1D9E6;
     grid-column-start: 11; 
     grid-column-end: 16; 
     grid-row-start: 7; 
@@ -69,24 +76,28 @@
 }
 /* Tarjeta de credito */
 .box9{
+    background-color:#EBCADC;
     grid-column-start: 6; 
     grid-column-end: 13; 
     grid-row-start: 9; 
     grid-row-end: 10;   
 }
 .box10{
+    background-color:#EBCADC;
     grid-column-start: 13; 
     grid-column-end: 16; 
     grid-row-start: 9; 
     grid-row-end: 10;
 }
 .box11{
+    background-color:#F1D9E6;
     grid-column-start: 6; 
     grid-column-end: 11; 
     grid-row-start: 10; 
     grid-row-end: 11; 
 }
 .box12{
+    background-color:#F1D9E6;
     grid-column-start: 11; 
     grid-column-end: 16; 
     grid-row-start: 10; 
