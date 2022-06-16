@@ -3,18 +3,29 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    
+}
+
+body {
+    background-color: #D8E5E8;
+}
+
+a {
+    color: black;
+    font: bolder;
+
 }
 
 .navbar{
-    background-color: #93265D;
+    background-color: #37B18E;
 }
 
 .options{
-    background-color: #E0AFCA;
+    background-color: #49AACF;
 }
 
 .aside {
-    background-color: #A64D79;
+    background-color: #67C0A8;
     width: 240px;
     height: 360px;
     float: left;
@@ -42,9 +53,14 @@
 }
 
 .footer-style{
-    background-color: #800040;
+    background-color: #37B18E;
 }
 
 .p-3{
-    background-color: #AF1C66;
+    background-color: #49AACF;
+    
+}
+
+.options a {
+    margin: 1em;
 }
