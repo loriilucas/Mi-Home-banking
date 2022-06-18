@@ -5,14 +5,14 @@ const cargarDolares = async()=>{
         console.log(respuesta);
         const datos = await respuesta.json();
         console.log(datos);
-        let peliculas='';
+        let dolares='';
         datos.forEach(casa => {
             peliculas += `<h1>${casa.casa.nombre} compra: $${casa.casa.compra} venta: $${casa.casa.compra} variacion:${casa.casa.variacion}</h1>` ;
 
 
 
         });
-    document.getElementById('contenedor').innerHTML=peliculas;
+    document.getElementById('contenedor').innerHTML=dolares;
         }
     
     
