@@ -16,35 +16,40 @@ body {
 }
 .box1{
     border:black 1px solid;
-    color:green;
-    background-color: coral;
+    background-color: #BEE4A3;
     grid-column-start: 2;
     grid-column-end: 8;
     grid-row-start: 3;
     grid-row-end: 5;
-}.box2{
+}
+.box2{
     border:black 1px solid;
-    color:green;
-    background-color: coral;
-    grid-column-start: 8;
-    grid-column-end: 14;
+    background-color: #BEE4A3;
+    grid-column-start: 9;
+    grid-column-end: 15;
     grid-row-start: 3;
     grid-row-end: 5;
 }
 .box3{
     border:black 1px solid;
-    color:green;
-    background-color: coral;
-    grid-column-start: 14;
-    grid-column-end: 20;
+    background-color: #BEE4A3;
+    grid-column-start: 16;
+    grid-column-end: 22;
     grid-row-start: 3;
     grid-row-end: 5;
-}.box3{
+}
+.box5{
     border:black 1px solid;
-    color:green;
-    background-color: coral;
-    grid-column-start: 2;
-    grid-column-end: 8;
-    grid-row-start: 5;
-    grid-row-end: 7;
+    background-color: #BEE4A3;
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 8;
+    grid-row-end: 10;
+}
+.box6{
+    border:black 1px solid;
+    background-color: #BEE4A3;
+    grid-column-start: 16;
+    grid-column-end: 22;
+    grid-row-start: 8;
 }
