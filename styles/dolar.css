@@ -1,3 +1,6 @@
+body {
+    background-color: #D8E5E8;
+}
 .contenedor {
     display: grid;
     grid-template-columns:  1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm;
