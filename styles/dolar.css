@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    grid-template-columns:  1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm;
+    grid-template-rows:1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm 1cm;
+}
+.dolares{
+    align-items: center;
+    padding: 0px;
+}
+.titulo{
+    align-self: center;
+    margin-bottom: 5px;
+}
+.box1{
+    border:black 1px solid;
+    color:green;
+    background-color: coral;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
