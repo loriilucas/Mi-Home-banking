@@ -18,17 +18,19 @@ const cargarDolares = async()=>{
         const box3=` <center class="titulo"> ${datos[3].casa.nombre}</center>  Compra: $${datos[3].casa.compra} <br>Venta: $${datos[3].casa.venta}
         <br>Variacion: ${datos[3].casa.variacion}%`;
         document.getElementById('box3').innerHTML=box3;
+        //Dolar
+        const box4=`<center class="titulo"> ${datos[7].casa.nombre}</center>  Compra: $${datos[7].casa.compra} <br>Venta: $${datos[7].casa.venta}
+        <br>Variacion: ${datos[0].casa.variacion}%`;
+        document.getElementById('box4').innerHTML=box4; 
         //Dolar 
-        const box4=`<center class="titulo"> ${datos[4].casa.nombre}</center>  Compra: $${datos[4].casa.compra} <br>Venta: $${datos[4].casa.venta}
+        const box5=`<center class="titulo"> ${datos[4].casa.nombre}</center>  Compra: $${datos[4].casa.compra} <br>Venta: $${datos[4].casa.venta}
         <br>Variacion: ${datos[4].casa.variacion}%`;
-        document.getElementById('box4').innerHTML=box4;
-        //Dolar 
-        const box5=`<center class="titulo"> ${datos[6].casa.nombre}</center>  Compra: $${datos[6].casa.compra} <br>Venta: $${datos[6].casa.venta}
-        <br>Variacion: ${datos[6].casa.variacion}%`;
         document.getElementById('box5').innerHTML=box5;
         //Dolar 
-        const box6=`<center class="titulo"> ${datos[7].casa.nombre}</center>  Compra: $${datos[7].casa.compra} <br>Venta: $${datos[7].casa.venta}<br>`;
+        const box6=`<center class="titulo"> ${datos[6].casa.nombre}</center>  Compra: ${datos[6].casa.compra} <br>Venta: $${datos[6].casa.venta}
+        <br>Variacion: ${datos[6].casa.variacion}%`;
         document.getElementById('box6').innerHTML=box6;
+
     }
     //Muestra si hay un error en la ejecucion y muestra cual es
     catch(error){
