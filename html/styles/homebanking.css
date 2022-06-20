@@ -5,7 +5,6 @@
     list-style: none;
     
 }
-
 body {
     background-color: #D8E5E8;
 }
@@ -49,7 +48,7 @@ a {
 }
 
 #image{
-    height: 5em;
+    height: 3em;
 }
 
 .footer-style{
